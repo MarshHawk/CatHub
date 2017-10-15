@@ -1,0 +1,46 @@
+{
+  "name": "cathub",
+  "version": "0.0.1",
+  "description": "centralized controller for cat components",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "test": "npm test",
+    "dev": "webpack -wd"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarshHawk/CatHub.git"
+  },
+  "keywords": [
+    "cataloging",
+    "marc",
+    "bibframe",
+    "automation"
+  ],
+  "author": "Sean Glover",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarshHawk/CatHub/issues"
+  },
+  "homepage": "https://github.com/MarshHawk/CatHub#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.7.1"
+  }
+}
